@@ -7,6 +7,8 @@
   .header-t {
         flex-direction: column;
         text-align: center;
+        width: 100%;
+        white-space: nowrap;
     }
 
     .aaa,
