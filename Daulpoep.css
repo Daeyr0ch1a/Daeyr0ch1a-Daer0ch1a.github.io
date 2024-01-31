@@ -5,8 +5,7 @@
     background-color: #FF7400;
     margin-top: 25px;
     border-radius: 25px;
-    padding: 15px;
-    overflow-x: auto;
+    padding: 15px
 }
 .header-t a {
     text-decoration: none;
