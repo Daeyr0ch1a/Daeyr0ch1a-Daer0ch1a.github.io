@@ -25,6 +25,9 @@
         display: block;
         margin: 10px 0;
     }
+    class:hover{
+        color:none
+    }
     .aaa:hover,
     a:hover,
     .AA:hover,
