@@ -9,6 +9,7 @@
 }
 
 .header-t img {
+    max-width: 5%;
     max-width: 100%;
     height: auto;
 }
