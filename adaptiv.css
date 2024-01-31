@@ -9,6 +9,12 @@
         text-align: center;
     }
 
+    .aaa,
+    a,
+    .AA,
+    .flex-perrent {
+        margin-bottom: 10px;
+    }
     .header-t a {
         display: block;
         margin: 10px 0;
