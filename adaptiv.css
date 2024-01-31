@@ -4,7 +4,24 @@
         height: 4%;
         padding: 1%;
     }
-    
+    .header-t {
+        display: block;
+        background-color: #FF7400;
+        margin-top: 25px;
+        border-radius: 25px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .header-t a {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .header-t img {
+        max-width: 100%;
+    }
     .aaa:hover,
     a:hover,
     .AA:hover,
