@@ -1,8 +1,10 @@
 @media screen and (max-width: 880px) {
     .auth-button {
-        width: 4%;
-        height: 4%;
+        width: 100%; 
+        max-width: 200px; 
+        height: auto;
         padding: 1%;
+        font-size: 16px;
     }
   .header-t {
         flex-direction: column;
