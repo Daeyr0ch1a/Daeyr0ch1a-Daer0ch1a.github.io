@@ -1,0 +1,189 @@
+.header-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF7400 ;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.logo img{
+    display: block;
+    float: left;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+.logo :hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
+}
+.aaa{
+  text-decoration: underline;
+  color: #fff;
+}
+.aaa:active{ 
+  color: #413831;
+
+}
+.aaa:hover{
+  color: #413831;
+}
+a{
+    display: inline-block;
+    background: #FFBB40; 
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+}
+a:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+nav ul{
+    display: flex;
+    gap:25px;
+    
+}
+nav ul li a{
+    font-size: 18px;
+} 
+ul{
+    list-style: none;
+}
+.AA:hover{
+    background: #A66B00;
+}
+.Container{
+    max-width: 800em;
+    padding: 0 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.auth-button{
+    outline: none;
+    border: none;
+    background-color: #FF9640;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+}
+.auth-button:hover{
+  background-color: #413831;
+}
+.info-text {
+  min-height: 100vh;
+  border-radius: 25px;
+  background-color: #ce9937;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+.info-text h1,
+.info-text p,
+.info-text a {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.flex-container{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center; 
+  text-align: center;
+  width: 100%;
+}
+.flex-perrent {
+  max-width: 100%;
+  width: 100%;
+  border: 2px solid rgb(126, 99, 76);
+  border-radius: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.flex-perrent:hover{
+  background-color: #a5620a;
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+h2:hover{
+  color: #fff;
+
+}
+p:hover{
+  color: #fff;
+}
+.flex-perrent img{
+  width: 100%;
+  height: 200px;
+  padding: 25px;
+  object-fit: scale-down;
+  border-radius: 25%;
+}
+img{
+  transition: '0.5s';
+}
+img:hover{
+  transform: scale(1.3)
+}
+h2{
+  font-size: 17px;
+  color: #413831;
+  font-style: oblique;
+}
+p{
+  font-style: oblique;
+  font-size: 14px;
+  color: #5c534c;
+
+}
+
+ html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  
+  body {
+    margin: 0;
+    background-color: #ffa600;
+  }
+
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  a {
+    background-color: transparent;
+  }
+  abbr[title] {
+    border-bottom: none; 
+    text-decoration: underline;
+    text-decoration: underline dotted;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }

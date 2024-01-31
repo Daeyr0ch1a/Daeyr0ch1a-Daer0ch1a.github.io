@@ -1,0 +1,43 @@
+@media screen and (max-width: 880px) {
+    .auth-button {
+        width: 4%;
+        height: 4%;
+        padding: 1%;
+    }
+    
+    .aaa:hover,
+    a:hover,
+    .AA:hover,
+    .flex-perrent:hover {
+        transform: none;
+    }
+    .aaa:hover {
+        color: #fff;
+    }
+
+    a:hover {
+        transform: none;
+    }
+
+    .AA:hover {
+        background: none;
+    }
+
+    .flex-perrent:hover {
+        transition: none;
+        transform: none;
+    }
+
+    .flex-container {
+        display: block ;
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .info-text{
+        display: block;
+    }
+    .flex-perrent img{
+        object-fit: contain;
+    }
+}
+  
