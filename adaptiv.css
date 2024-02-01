@@ -8,6 +8,8 @@
     }
   .header-t {
         flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
         text-align: center;
         width: 100%;
         white-space: normal;
