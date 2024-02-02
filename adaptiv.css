@@ -16,6 +16,15 @@
         max-width: 100%;
         overflow-x: auto;
     }
+.burger-icons{
+    display: block;
+}
+.menu{
+    display:flex ;
+}
+.close-icons{
+    display: block;
+}
 
     .aaa,
     a,

@@ -4,8 +4,8 @@
     align-items: center;
     background-color: #FF7400;
     margin-top: 25px;
-    border-radius: 25px;
-    padding: 15px
+    border-radius: 2.5rem;
+    padding: 1.5rem;
 }
 .header-t a {
     text-decoration: none;
@@ -16,6 +16,79 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+.burger-menu{
+  position: relative;
+}
+.burger-icons
+.close-icons{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.menu{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #a5620a;
+  padding: 1.5%;
+  border: solid #413831 1%;
+transition: right 0.3s ease;
+}
+.mobile-menu{
+  text-decoration: none;
+  list-style: none;
+  color: #FFBB40 ;
+}
+.conte {align-items: center;
+  max-width: 40%;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  border: 10px #413831 solid;
+  max-height: 40%;
+  object-fit: cover;
+  align-items: center; 
+   justify-content: center;
+}
+.loshara {
+  align-items: center;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+}
+.loshra{
+  flex: 0 0 100%;
+}
+.loshra img{
+width: 100%;
+height: 100%;
+}
+.SmehButtuon{ 
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background:#413831;
+  color: #FFBB40;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  z-index: 2;
+}
+.SmehPre .button-content {
+  transform: rotate(180deg);
+}
+.SmehSed .button-content {
+  transform: rotate(0deg);
+}
+.SmehPre{
+left: 0px;
+}
+.SmehSed{
+right: 0px;
 }
 .logo {
     display: block;
@@ -88,8 +161,8 @@ ul{
 .info-text {
   min-height: 100vh;
   border-radius: 25px;
+  max-width: 80%;
   background-color: #ce9937;
-  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -108,7 +181,7 @@ ul{
 }
 .flex-container{
   display: flex;
-  gap: 40px;
+  gap: 4%;
   flex-wrap: wrap;
   align-items: center; 
   text-align: center;
@@ -142,10 +215,10 @@ p:hover{
   object-fit: scale-down;
   border-radius: 25%;
 }
-img{
+.ananas{
   transition: '0.5s';
 }
-img:hover{
+.ananas:hover{
   transform: scale(1.3)
 }
 h2{
